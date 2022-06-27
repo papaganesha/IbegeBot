@@ -1,0 +1,1707 @@
+{
+  "intents": [
+    {
+      "tag": "saudacoes",
+      "patterns": [
+        "Oi",
+        "Ola",
+        "Bom dia",
+        "Boa noite",
+        "Boa tarde",
+        "ajuda"
+      ],
+      "responses": [
+        "Oi, em que posso ajudar??",
+        "Ola, em que posso ajudar??",
+        "Ola, no que posso ajudar??",
+        "Ola, como posso ser util a voce?",
+        "Seja bem-vindo, em que posso ajuda-lo??",
+        "Seja bem-vindo, em que posso ser util??",
+        "Seja bem-vindo, como posso ajuda-lo??",
+        "Seja bem-vindo, como posso ser util a voce??"
+      ],
+      "context_set": ""
+    },
+     {
+      "tag": "despedidas",
+      "patterns": [
+        "tchau",
+        "adeus",
+        "ate mais",
+        "ate depois",
+        "falou",
+        "valeu",
+        "bye",
+        "obrigado"
+
+      ],
+      "responses": [
+        "Foi um prazer ajudar, volte sempre!!!",
+        "Ate mais, tenha um Bom dia!!!",
+        "Volte sempre, estou a sua disposicao!!!",
+        "Obrigado por conversar comigo, estou a sua disposicao!!!"
+      ],
+       "context_set": ""
+    },
+    {
+      "tag": "nome",
+      "patterns": [
+        "Qual seu nome?",
+        "Como devo chama-lo?",
+        "Quem e voce?"
+      ],
+      "responses": [
+        "Eu me chamo IbegeBot",
+        "Sou o IbegeBot",
+        "Pode me chamar de IbegeBot"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "proposito",
+      "patterns": [
+        "Pra que voce serve?",
+        "O que voce faz?",
+        "Qual sua funcao?",
+        "Qual seu trabalho?",
+        "Qual sua motivacao?"
+      ],
+      "responses": [
+        "Respondo perguntas sobre a populacao de acordo com os dados do IBGE",
+        "Informo sobre metricas populacionais retiradas do IBGE"
+      ],
+      "context_set": ""
+    },
+       {
+      "tag": "populacao brasil",
+      "patterns": [
+        "populacao brasil",
+        "populacao br",
+        "populacao pais",
+        "numero habitantes brasil",
+        "numero habitantes br",
+        "numero habitantes pais"
+      ],
+      "responses": [
+        "Pais: Brasil\nPopulacao 2021: 213,317,639"
+      ],
+         "context_set": ""
+    },
+       {
+      "tag": "populacao sao paulo",
+      "patterns": [
+        "populacao sao paulo",
+        "populacao são paulo",
+        "populacao sp",
+        "numero habitantes sao paulo",
+        "numero habitantes são paulo",
+        "numero habitantes sp"
+      ],
+      "responses": [
+        "Estado: Sao Paulo\nPopulacao 2021: 46,649,132\nPopulacao 2010: 41,262,199\nCrescimento Populacional: 13,05%\nPorcentagem da populacao total: 21,9%"
+      ],
+         "context_set": ""
+    },
+       {
+      "tag": "populacao rio de janeiro",
+      "patterns": [
+        "populacao rio de janeiro",
+        "populacao rj",
+        "numero habitantes rio de janeiro",
+        "numero habitantes rj"
+      ],
+      "responses": [
+        "Estado: Rio de Janeiro\nPopulacao 2021:17,463,349\nPopulacao 2010: 15,989,929\nCrescimento Populacional: 9,21%\nPorcentagem da populacao total: 8,2%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao acre",
+      "patterns": [
+        "populacao acre",
+        "populacao ac",
+        "numero habitantes acre",
+        "numero habitantes ac"
+      ],
+      "responses": [
+        "Estado: Acre\nPopulacao 2021: 906,876\nPopulacao 2010: 733,559\nCrescimento Populacional: 23,63%\nPorcentagem da populacao total: 0,4%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao amapa",
+      "patterns": [
+        "populacao amapa",
+        "populacao ap",
+        "numero habitantes amapa",
+        "numero habitantes ap"
+      ],
+      "responses": [
+        "Estado: Amapa\nPopulacao 2021: 877,613\nPopulacao 2010: 669,526\nCrescimento Populacional: 31,08%\nPorcentagem da populacao total: 0,4%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao roraima",
+      "patterns": [
+        "populacao roraima",
+        "populacao rr",
+        "numero habitantes roraima",
+        "numero habitantes rr"
+
+      ],
+      "responses": [
+        "Estado: Roraima\nPopulacao 2021: 652,713\nPopulacao 2010: 450,479\nCrescimento Populacional: 44,89%\nPorcentagem da populacao total: 0,4%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao minas gerais",
+      "patterns": [
+        "populacao minas gerais",
+        "populacao mg",
+        "numero habitantes minas gerais",
+        "numero habitantes mg"
+      ],
+      "responses": [
+        "Estado: Minas Gerais\nPopulacao 2021: 21,411,923\nPopulacao 2010: 41,262,199\nCrescimento Populacional: 13,05%\nPorcentagem da populacao total: 10,1%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao bahia",
+      "patterns": [
+        "populacao bahia",
+        "populacao ba",
+        "numero habitantes bahia",
+        "numero habitantes ba"
+      ],
+      "responses": [
+        "Estado: Bahia\nPopulacao 2021: 14,985,284\nPopulacao 2010: 14,016,906\nCrescimento Populacional: 6,91%\nPorcentagem da populacao total: 7,1%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao parana",
+      "patterns": [
+        "populacao parana",
+        "populacao pr",
+        "numero habitantes parana",
+        "numero habitantes pr"
+      ],
+      "responses": [
+        "Estado: Parana\nPopulacao 2021: 11,597,484\nPopulacao 2010: 15,989,929\nCrescimento Populacional: 11,04%\nPorcentagem da populacao total: 5,4%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao rio grande do sul",
+      "patterns": [
+        "populacao rio grande do sul",
+        "populacao rs",
+        "numero habitantes rio grande do sul",
+        "numero habitantes rs"
+      ],
+      "responses": [
+        "Estado: Rio Grande do Sul\nPopulacao 2021: 11,466,630\nPopulacao 2010: 41,262,199\nCrescimento Populacional: 7,23%\nPorcentagem da populacao total: 5,4%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao pernambuco",
+      "patterns": [
+        "populacao pernambuco",
+        "populacao pe",
+        "numero habitantes de pernambuco",
+        "numero habitantes do pe"
+      ],
+      "responses": [
+        "Estado: Pernambuco\nPopulacao 2021: 11,597,484\nPopulacao 2010: 10,693,929\nCrescimento Populacional: 9,98%\nPorcentagem da populacao total: 4,5%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao ceara",
+      "patterns": [
+        "populacao ceara",
+        "populacao ce",
+        "numero habitantes ceara",
+        "numero habitantes ce"
+      ],
+      "responses": [
+        "Estado: Ceara\nPopulacao 2021: 9,240,580\nPopulacao 2010: 8,452,381\nCrescimento Populacional: 9,32%\nPorcentagem da populacao total: 4,3%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao para",
+      "patterns": [
+        "populacao para",
+        "populacao pa",
+        "numero habitantes para",
+        "numero habitantes pa"
+      ],
+      "responses": ["Estado: Para\nPopulacao 2021: 8,777,124\nPopulacao 2010: 7,581,051\nCrescimento Populacional: 15,78%\nPorcentagem da populacao total: 4,1%"],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao santa catarina",
+      "patterns": [
+        "populacao santa catarina",
+        "populacao sc",
+        "numero habitantes santa catarina",
+        "numero habitantes sc"
+      ],
+      "responses": [
+        "Estado: Santa Catarina\nPopulacao 2021: 7,338,473\nPopulacao 2010: 6,248,436 \nCrescimento Populacional: 17,44%\nPorcentagem da populacao total: 3,4%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao goias",
+      "patterns": [
+        "populacao goias",
+        "populacao go",
+        "numero habitantes goias",
+        "numero habitantes go"
+      ],
+      "responses": [
+        "Estado: Goias\nPopulacao 2021: 7,206,589\nPopulacao 2010: 6,003,788\nCrescimento Populacional: 20,03%\nPorcentagem da populacao total: 3,4%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao maranhao",
+      "patterns": [
+        "populacao maranhão",
+        "populacao maranhão",
+        "populaçao maranhão",
+        "população maranhão",
+        "populacao ma",
+        "numero habitantes maranhão",
+        "numero habitantes maranhão",
+        "numero habitantes ma"
+      ],
+      "responses": [
+        "Estado: Maranhao\nPopulacao 2021: 7,153,262\nPopulacao 2010: 6,574,789\nCrescimento Populacional: 8,8%\nPorcentagem da populacao total: 3,4%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao amazonas",
+      "patterns": [
+        "populacao amazonas",
+        "populacao am",
+        "numero habitantes amazonas",
+        "numero habitantes am"
+      ],
+      "responses": [
+        "Estado: Amazonas\nPopulacao 2021: 4,269,995\nPopulacao 2010: 3,483,985\nCrescimento Populacional: 22,56%\nPorcentagem da populacao total: 2%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao espirito santo",
+      "patterns": [
+        "populacao espirito santo",
+        "populacao es",
+        "numero habitantes espirito santo",
+        "numero habitantes es"
+      ],
+      "responses": [
+        "Estado: Espirito Santo\nPopulacao 2021: 4,108,508\nPopulacao 2010: 3,514,952\nCrescimento Populacional: 16,89%\nPorcentagem da populacao total: 1,9%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao paraiba",
+      "patterns": [
+        "populacao paraiba",
+        "populacao pb",
+        "numero habitantes paraiba",
+        "numero habitantes pb"
+      ],
+      "responses": [
+        "Estado: Paraiba\nPopulacao 2021: 4,059,905\nPopulacao 2010: 3,766,528\nCrescimento Populacional: 7,79%\nPorcentagem da populacao total: 1,9%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao mato grosso",
+      "patterns": [
+        "populacao mato grosso",
+        "populacao mt",
+        "numero habitantes mato grosso",
+        "numero habitantes mt"
+      ],
+      "responses": [
+        "Estado: Mato Grosso\nPopulacao 2021: 3,567,234\nPopulacao 2010: 3,035,122\nCrescimento Populacional: 17,53%\nPorcentagem da populacao total: 1,7%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao mato grosso do sul",
+      "patterns": [
+        "populacao mato grosso do sul",
+        "populacao ms",
+        "numero habitantes mato grosso do sul",
+        "numero habitantes ms"
+      ],
+      "responses": [
+        "Estado: Mato Grosso do Sul\nPopulacao 2021: 2,839,188\nPopulacao 2010: 2,449,024\nCrescimento Populacional: 15,93%\nPorcentagem da populacao total: 1,3%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao rio grande do norte",
+      "patterns": [
+        "populacao rio grande do norte",
+        "populacao rn",
+        "numero habitantes rio grande do norte",
+        "numero habitantes rn"
+      ],
+      "responses": [
+        "Estado: Rio Grande do Norte\nPopulacao 2021: 3,560,903\nPopulacao 2010: 3,168,027 \nCrescimento Populacional: 12,4%\nPorcentagem da populacao total: 1,7%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao alagoas",
+      "patterns": [
+        "populacao alagoas",
+        "populacao al",
+        "numero habitantes alagoas",
+        "numero habitantes al"
+      ],
+      "responses": [
+        "Estado: Alagoas\nPopulacao 2021: 3,365,351\nPopulacao 2010: 3,120,494\nCrescimento Populacional: 7,85%\nPorcentagem da populacao total: 1,6%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao sergipe",
+      "patterns": [
+        "populacao sergipe",
+        "populacao se",
+        "numero habitantes sergipe",
+        "numero habitantes se"
+      ],
+      "responses": [
+        "Estado: Sergipe\nPopulacao 2021: 2,338,474\nPopulacao 2010: 2,068,017\nCrescimento Populacional: 13,07%\nPorcentagem da populacao total: 1,1%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao distrito federal",
+      "patterns": [
+        "populacao distrito federal",
+        "populacao df",
+        "numero habitantes distrito federal",
+        "numero habitantes df"
+      ],
+      "responses": [
+        "Estado: Distrito Federal\nPopulacao 2021: 3,094,325\nPopulacao 2010: 2,570,160\nCrescimento Populacional: 20,39%\nPorcentagem da populacao total: 1,4%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao rondonia",
+      "patterns": [
+        "populacao rondonia",
+        "populacao ro",
+        "numero habitantes rondonia",
+        "numero habitantes ro"
+      ],
+      "responses": [
+        "Estado: Rondonia\nPopulacao 2021: 1,815,278\nPopulacao 2010: 1,562,409\nCrescimento Populacional: 16,18%\nPorcentagem da populacao total: 0,8%"
+      ],
+         "context_set": ""
+    },
+
+    {
+      "tag": "populacao tocantins",
+      "patterns": [
+        "populacao tocantins",
+        "populacao to",
+        "numero habitantes tocantins",
+        "numero habitantes to"
+      ],
+      "responses": [
+        "Estado: Tocantins\nPopulacao 2021: 1,383,445\nPopulacao 2010: 1,607,363\nCrescimento Populacional: 16,18%\nPorcentagem da populacao total: 0,7%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao piaui",
+      "patterns": [
+        "populacao piaui",
+        "populacao pi",
+        "numero habitantes piaui",
+        "numero habitantes pi"
+      ],
+      "responses": [
+        "Estado: Piaui\nPopulacao 2021: 3,289,290\nPopulacao 2010: 3,118,360\nCrescimento Populacional: 5,48%\nPorcentagem da populacao total: 1,6%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao sul",
+      "patterns": [
+        "populacao sul",
+        "numero habitantes sul"
+      ],
+      "responses": [
+        "Regiao: Sul\nPopulacao 2021: 30,402,587\nPorcentagem da populacao total: 14,26%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao sudeste",
+      "patterns": [
+        "populacao sudeste",
+        "numero habitantes sudeste"
+      ],
+      "responses": [
+        "Regiao: Sudeste\nPopulacao 2021: 8,9632,912\nPorcentagem da populacao total: 42,04%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao centro oeste",
+      "patterns": [
+        "populacao centro-oeste",
+        "populacao centro oeste",
+        "numero habitantes centro-oeste",
+        "numero habitantes centro oeste"
+
+      ],
+      "responses": [
+        "Regiao: Centro-Oeste\nPopulacao 2021: 16,707,336\nPorcentagem da populacao total: 7,79%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao nordeste",
+      "patterns": [
+        "populacao nordeste",
+        "numero habitantes nordeste"
+
+      ],
+      "responses": [
+        "Regiao: Nordeste\nPopulacao 2021: 57,667,842\nPorcentagem da populacao total: 27,09%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "populacao norte",
+      "patterns": [
+        "populacao norte",
+        "numero habitantes norte"
+
+      ],
+      "responses": [
+        "Regiao: Norte\nPopulacao 2021: 18,906,962\nPorcentagem da populacao total: 8,82%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza maranhao",
+      "patterns": [
+        "taxa pobreza maranhao",
+        "taxa pobreza maranhão",
+        "taxa pobreza ma",
+        "incidencia pobreza maranhao",
+        "incidencia pobreza maranhão",
+        "incidencia pobreza ma",
+        "pobreza maranhao",
+        "pobreza maranhão",
+        "pobreza ma"
+      ],
+      "responses": [
+        "Estado: Maranhao\nTaxa de incidencia da pobreza: 26,3%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza piaui",
+      "patterns": [
+        "taxa pobreza piaui",
+        "taxa pobreza pi",
+        "incidencia pobreza piaui",
+        "incidencia pobreza pi",
+        "pobreza piaui",
+        "pobreza pi"
+      ],
+      "responses": [
+        "Estado: Piaui\nTaxa de incidencia da pobreza: 21,6%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza alagoas",
+      "patterns": [
+        "taxa pobreza alagoas",
+        "taxa pobreza al",
+        "incidencia pobreza alagoas",
+        "incidencia pobreza al",
+        "pobreza alagoas",
+        "pobreza al"
+      ],
+      "responses": [
+        "Estado: Alagoas\nTaxa de incidencia da pobreza: 20,5%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza amazonas",
+      "patterns": [
+        "taxa pobreza amazonas",
+        "taxa pobreza am",
+        "incidencia pobreza amazonas",
+        "incidencia pobreza am",
+        "pobreza amazonas",
+        "pobreza am"
+      ],
+      "responses": [
+        "Estado: Amazonas\nTaxa de incidencia da pobreza: 19,3%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza para",
+      "patterns": [
+        "taxa pobreza para",
+        "taxa pobreza pa",
+        "incidencia pobreza para",
+        "incidencia pobreza pa",
+        "pobreza para",
+        "pobreza pa"
+      ],
+      "responses": [
+        "Estado: Para\nTaxa de incidencia da pobreza: 19,2%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza acre",
+      "patterns": [
+        "taxa pobreza acre",
+        "taxa pobreza ac",
+        "incidencia pobreza acre",
+        "incidencia pobreza ac",
+        "pobreza acre",
+        "pobreza ac"
+      ],
+      "responses": [
+        "Estado: Acre\nTaxa de incidencia da pobreza: 18,9%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza ceara",
+      "patterns": [
+        "taxa pobreza ceara",
+        "taxa pobreza ce",
+        "incidencia pobreza ceara",
+        "incidencia pobreza ce",
+        "pobreza ceara",
+        "pobreza ce"
+      ],
+      "responses": [
+        "Estado: Ceara\nTaxa de incidencia da pobreza: 18,4%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza roraima",
+      "patterns": [
+        "taxa pobreza roraima",
+        "taxa pobreza rr",
+        "incidencia pobreza roraima",
+        "incidencia pobreza rr",
+        "pobreza roraima",
+        "pobreza rr"
+      ],
+      "responses": [
+        "Estado: Roraima\nTaxa de incidencia da pobreza: 17,9%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza bahia",
+      "patterns": [
+        "taxa pobreza bahia",
+        "taxa pobreza ba",
+        "incidencia pobreza bahia",
+        "incidencia pobreza ba",
+        "pobreza bahia",
+        "pobreza ba"
+      ],
+      "responses": [
+        "Estado: Bahia\nTaxa de incidencia da pobreza: 17,7%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza paraiba",
+      "patterns": [
+        "taxa pobreza paraiba",
+        "taxa pobreza pb",
+        "incidencia pobreza paraiba",
+        "incidencia pobreza pb",
+        "pobreza paraiba",
+        "pobreza pb"
+      ],
+      "responses": [
+        "Estado: Paraiba\nTaxa de incidencia da pobreza: 16,3%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza pernambuco",
+      "patterns": [
+        "taxa pobreza pernambuco",
+        "taxa pobreza pe",
+        "incidencia pobreza pernambuco",
+        "incidencia pobreza pe",
+        "pobreza pernambuco",
+        "pobreza pe"
+      ],
+      "responses": [
+        "Estado: Pernambuco\nTaxa de incidencia da pobreza: 16,1%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza sergipe",
+      "patterns": [
+        "taxa pobreza sergipe",
+        "taxa pobreza se",
+        "incidencia pobreza sergipe",
+        "incidencia pobreza se",
+        "pobreza sergipe",
+        "pobreza se"
+      ],
+      "responses": [
+        "Estado: Sergipe\nTaxa de incidencia da pobreza: 15,3%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza rio grande do norte",
+      "patterns": [
+        "taxa pobreza rio grande do norte",
+        "taxa pobreza rn",
+        "incidencia pobreza rio grande do norte",
+        "incidencia pobreza rn",
+        "pobreza rio grande do norte",
+        "pobreza rn"
+      ],
+      "responses": [
+        "Estado: Rio Grande do Norte\nTaxa de incidencia da pobreza: 13%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza amapa",
+      "patterns": [
+        "taxa pobreza amapa",
+        "taxa pobreza ap",
+        "incidencia pobreza amapa",
+        "incidencia pobreza ap",
+        "pobreza amapa",
+        "pobreza ap"
+      ],
+      "responses": [
+        "Estado: Amapa\nTaxa de incidencia da pobreza: 12,8%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza tocantins",
+      "patterns": [
+        "taxa pobreza tocantins",
+        "taxa pobreza to",
+        "incidencia pobreza tocantins",
+        "incidencia pobreza to",
+        "pobreza tocantins",
+        "pobreza to"
+      ],
+      "responses": [
+        "Estado: Tocantins\nTaxa de incidencia da pobreza: 11,9%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza rondonia",
+      "patterns": [
+        "taxa pobreza rondonia",
+        "taxa pobreza ro",
+        "incidencia pobreza rondonia",
+        "incidencia pobreza ro",
+        "pobreza rondonia",
+        "pobreza ro"
+      ],
+      "responses": [
+        "Estado: Rondonia\nTaxa de incidencia da pobreza: 7,9%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza mato grosso",
+      "patterns": [
+        "taxa pobreza mato grosso",
+        "taxa pobreza mt",
+        "incidencia pobreza mato grosso",
+        "incidencia pobreza mt",
+        "pobreza mato grosso",
+        "pobreza mt"
+      ],
+      "responses": [
+        "Estado: Mato Grosso\nTaxa de incidencia da pobreza: 5,9%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza mato grosso do sul",
+      "patterns": [
+        "taxa pobreza mato grosso do sul",
+        "taxa pobreza ms",
+        "incidencia pobreza mato grosso do sul",
+        "incidencia pobreza ms",
+        "pobreza mato grosso do sul",
+        "pobreza ms"
+      ],
+      "responses": [
+        "Estado: Mato Grosso do Sul\nTaxa de incidencia da pobreza: 5%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza minas gerais",
+      "patterns": [
+        "taxa pobreza minas gerais",
+        "taxa pobreza mg",
+        "incidencia pobreza minas gerais",
+        "incidencia pobreza mg",
+        "pobreza minas gerais",
+        "pobreza mg"
+      ],
+      "responses": [
+        "Estado: Minas Gerais\nTaxa de incidencia da pobreza: 4,7%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza espirito santo",
+      "patterns": [
+        "taxa pobreza espirito santo",
+        "taxa pobreza es",
+        "incidencia pobreza espirito santo",
+        "incidencia pobreza es",
+        "pobreza espirito santo",
+        "pobreza es"
+      ],
+      "responses": [
+        "Estado: Espirito Santo\nTaxa de incidencia da pobreza: 4,3%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza rio de janeiro",
+      "patterns": [
+        "taxa pobreza rio de janeiro",
+        "taxa pobreza rj",
+        "incidencia pobreza rio de janeiro",
+        "incidencia pobreza rj",
+        "pobreza rio de janeiro",
+        "pobreza rj"
+      ],
+      "responses": [
+        "Estado: Rio de Janeiro\nTaxa de incidencia da pobreza: 3,9%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza goias",
+      "patterns": [
+        "taxa pobreza goias",
+        "taxa pobreza go",
+        "incidencia pobreza goias",
+        "incidencia pobreza go",
+        "pobreza goias",
+        "pobreza go"
+      ],
+      "responses": [
+        "Estado: Goias\nTaxa de incidencia da pobreza: 3,7%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza parana",
+      "patterns": [
+        "taxa pobreza parana",
+        "taxa pobreza pr",
+        "incidencia pobreza parana",
+        "incidencia pobreza pr",
+        "pobreza parana",
+        "pobreza pr"
+      ],
+      "responses": [
+        "Estado: Parana\nTaxa de incidencia da pobreza: 3%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza rio grande do sul",
+      "patterns": [
+        "taxa pobreza rio grande do sul",
+        "taxa pobreza rs",
+        "incidencia pobreza rio grande do sul",
+        "incidencia pobreza rs",
+        "pobreza rio grande do sul",
+        "pobreza rs"
+      ],
+      "responses": [
+        "Estado: Rio Grande do Sul\nTaxa de incidencia da pobreza: 2,9%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza sao paulo",
+      "patterns": [
+        "taxa pobreza sao paulo",
+        "taxa pobreza são paulo",
+        "taxa pobreza sp",
+        "incidencia pobreza sao paulo",
+        "incidencia pobreza são paulo",
+        "incidencia pobreza sp",
+        "pobreza sao paulo",
+        "pobreza são paulo",
+        "pobreza sp"
+      ],
+      "responses": [
+        "Estado: Sao Paulo\nTaxa de incidencia da pobreza: 2,7%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza distrito federal",
+      "patterns": [
+        "taxa pobreza distrito federal",
+        "taxa pobreza df",
+        "incidencia pobreza distrito federal",
+        "incidencia pobreza df",
+        "pobreza distrito federal",
+        "pobreza df"
+      ],
+      "responses": [
+        "Estado: Distrito Federal\nTaxa de incidencia da pobreza: 1,9%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "pobreza santa catarina",
+      "patterns": [
+        "taxa pobreza santa catarina",
+        "taxa pobreza sc",
+        "incidencia pobreza santa catarina",
+        "incidencia pobreza sc",
+        "pobreza santa catarina",
+        "pobreza sc"
+      ],
+      "responses": [
+        "Estado: Santa Catarina\nTaxa de incidencia da pobreza: 1,7%"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade maranhao",
+      "patterns": [
+        "fertilidade maranhao",
+        "fertilidade maranhão",
+        "fertilidade ma",
+        "fecundidade maranhao",
+        "fecundidade maranhão",
+        "fecundidade ma",
+        "fecundacao maranhao",
+        "fecundacao maranhão",
+        "fecundacao ma"
+      ],
+      "responses": [
+        "Estado: Maranhao\nTaxa de fertilidade (filhos por mulher): 2,56"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade piaui",
+      "patterns": [
+        "fertilidade piaui",
+        "fertilidade pi",
+        "fecundidade piaui",
+        "fecundidade pi",
+        "fecundacao piaui",
+        "fecundacao pi"
+      ],
+      "responses": [
+        "Estado: Piaui\nTaxa de fertilidade (filhos por mulher): 1,99"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade alagoas",
+      "patterns": [
+        "fertilidade alagoas",
+        "fertilidade al",
+        "fecundidade alagoas",
+        "fecundidade al",
+        "fecundacao alagoas",
+        "fecundacao al"
+      ],
+      "responses": [
+        "Estado: Alagoas\nTaxa de fertilidade (filhos por mulher): 2,22"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade amazonas",
+      "patterns": [
+        "fertilidade amazonas",
+        "fertilidade am",
+        "fecundidade amazonas",
+        "fecundidade am",
+        "fecundacao amazonas",
+        "fecundacao am"
+      ],
+      "responses": [
+        "Estado: Amazonas\nTaxa de fertilidade (filhos por mulher): 2,22"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade para",
+      "patterns": [
+        "fertilidade para",
+        "fertilidade pa",
+        "fecundidade para",
+        "fecundidade pa",
+        "fecundacao para",
+        "fecundacao pa"
+      ],
+      "responses": [
+        "Estado: Para\nTaxa de fertilidade (filhos por mulher): 2,5"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade acre",
+      "patterns": [
+        "fertilidade acre",
+        "fertilidade ac",
+        "fecundidade acre",
+        "fecundidade ac",
+        "fecundacao acre",
+        "fecundacao ac"
+      ],
+      "responses": [
+        "Estado: Acre\nTaxa de fertilidade (filhos por mulher): 2,95"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade ceara",
+      "patterns": [
+        "fertilidade ceara",
+        "fertilidade ce",
+        "fecundidade ceara",
+        "fecundidade ce",
+        "fecundacao ceara",
+        "fecundacao ce"
+      ],
+      "responses": [
+        "Estado: Ceara\nTaxa de fertilidade (filhos por mulher): 1,99"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade roraima",
+      "patterns": [
+        "fertilidade roraima",
+        "fertilidade rr",
+        "fecundidade roraima",
+        "fecundidade rr",
+        "fecundacao roraima",
+        "fecundacao rr"
+      ],
+      "responses": [
+        "Estado: Roraima\nTaxa de fertilidade (filhos por mulher): 2,41"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade bahia",
+      "patterns": [
+        "fertilidade bahia",
+        "fertilidade ba",
+        "fecundidade bahia",
+        "fecundidade ba",
+        "fecundacao bahia",
+        "fecundacao ba"
+      ],
+      "responses": [
+        "Estado: Bahia\nTaxa de fertilidade (filhos por mulher): 2,05"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade paraiba",
+      "patterns": [
+        "fertilidade paraiba",
+        "fertilidade pb",
+        "fecundidade paraiba",
+        "fecundidade pb",
+        "fecundacao paraiba",
+        "fecundacao pb"
+      ],
+      "responses": [
+        "Estado: Paraiba\nTaxa de fertilidade (filhos por mulher): 1,95"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade pernambuco",
+      "patterns": [
+        "fertilidade pernambuco",
+        "fertilidade pe",
+        "fecundidade pernambuco",
+        "fecundidade pe",
+        "fecundacao pernambuco",
+        "fecundacao pe"
+      ],
+      "responses": [
+        "Estado: Pernambuco\nTaxa de fertilidade (filhos por mulher): 1,92"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade sergipe",
+      "patterns": [
+        "fertilidade sergipe",
+        "fertilidade se",
+        "fecundidade sergipe",
+        "fecundidade se",
+        "fecundacao sergipe",
+        "fecundacao se"
+      ],
+      "responses": [
+        "Estado: Sergipe\nTaxa de fertilidade (filhos por mulher): 1,95"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade rio grande do norte",
+      "patterns": [
+        "fertilidade rio grande do norte",
+        "fertilidade rn",
+        "fecundidade rio grande do norte",
+        "fecundidade rn",
+        "fecundacao rio grande do norte",
+        "fecundacao rn"
+      ],
+      "responses": [
+        "Estado: Rio Grande do Norte\nTaxa de fertilidade (filhos por mulher): 1,98"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade amapa",
+      "patterns": [
+        "fertilidade amapa",
+        "fertilidade ap",
+        "fecundidade amapa",
+        "fecundidade ap",
+        "fecundacao amapa",
+        "fecundacao ap"
+      ],
+      "responses": [
+        "Estado: Amapa\nTaxa de fertilidade (filhos por mulher): 2,48"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade tocantins",
+      "patterns": [
+        "fertilidade tocantins",
+        "fertilidade to",
+        "fecundidade tocantins",
+        "fecundidade to",
+        "fecundacao tocantins",
+        "fecundacao to"
+      ],
+      "responses": [
+        "Estado: Tocantins\nTaxa de fertilidade (filhos por mulher): 2,41"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade rondonia",
+      "patterns": [
+        "fertilidade rondonia",
+        "fertilidade ro",
+        "fecundidade rondonia",
+        "fecundidade ro",
+        "fecundacao rondonia",
+        "fecundacao ro"
+      ],
+      "responses": [
+        "Estado: Rondonia\nTaxa de fertilidade (filhos por mulher): 2,16"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade mato grosso",
+      "patterns": [
+        "fertilidade mato grosso",
+        "fertilidade mt",
+        "fecundidade mato grosso",
+        "fecundidade mt",
+        "fecundacao mato grosso",
+        "fecundacao mt"
+      ],
+      "responses": [
+        "Estado: Mato Grosso do Sul\nTaxa de fertilidade (filhos por mulher): 2,08"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade mato grosso do sul",
+      "patterns": [
+        "fertilidade mato grosso do sul",
+        "fertilidade ms",
+        "fecundidade mato grosso do sul",
+        "fecundidade ms",
+        "fecundacao mato grosso do sul",
+        "fecundacao ms"
+      ],
+      "responses": [
+        "Estado: Mato Grosso do Sul\nTaxa de fertilidade (filhos por mulher): 2,04"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade minas gerais",
+      "patterns": [
+        "fertilidade minas gerais",
+        "fertilidade mg",
+        "fecundidade minas gerais",
+        "fecundidade mg",
+        "fecundacao minas gerais",
+        "fecundacao mg"
+      ],
+      "responses": [
+        "Estado: Minas Gerais\nTaxa de fertilidade (filhos por mulher): 1,79"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade espirito santo",
+      "patterns": [
+        "fertilidade espirito santo",
+        "fertilidade es",
+        "fecundidade espirito santo",
+        "fecundidade es",
+        "fecundacao espirito santo",
+        "fecundacao es"
+      ],
+      "responses": [
+        "Estado: Espirito Santo\nTaxa de fertilidade (filhos por mulher): 1,8"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade rio de janeiro",
+      "patterns": [
+        "fertilidade rio de janeiro",
+        "fertilidade rj",
+        "fecundidade rio de janeiro",
+        "fecundidade rj",
+        "fecundacao rio de janeiro",
+        "fecundacao rj"
+      ],
+      "responses": [
+        "Estado: Rio de Janeiro\nTaxa de fertilidade (filhos por mulher): 1,68"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade goias",
+      "patterns": [
+        "fertilidade goias",
+        "fertilidade go",
+        "fecundidade goias",
+        "fecundidade go",
+        "fecundacao goias",
+        "fecundacao go"
+      ],
+      "responses": [
+        "Estado: Goias\nTaxa de fertilidade (filhos por mulher): 1,87"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade parana",
+      "patterns": [
+        "fertilidade parana",
+        "fertilidade pr",
+        "fecundidade parana",
+        "fecundidade pr",
+        "fecundacao parana",
+        "fecundacao pr"
+      ],
+      "responses": [
+        "Estado: Parana\nTaxa de fertilidade (filhos por mulher): 1,86"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade rio grande do sul",
+      "patterns": [
+        "fertilidade rio grande do sul",
+        "fertilidade rs",
+        "fecundidade rio grande do sul",
+        "fecundidade rs",
+        "fecundacao rio grande do sul",
+        "fecundacao rs"
+      ],
+      "responses": [
+        "Estado: Rio Grande do Sul\nTaxa de fertilidade (filhos por mulher): 1,76"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade sao paulo",
+      "patterns": [
+        "fertilidade sao paulo",
+        "fertilidade são paulo",
+        "fertilidade sp",
+        "fecundidade sao paulo",
+        "fecundidade são paulo",
+        "fecundidade sp",
+        "fecundacao sao paulo",
+        "fecundacao são paulo",
+        "fecundacao sp"
+      ],
+      "responses": [
+        "Estado: Sao Paulo\nTaxa de fertilidade (filhos por mulher): 1,66"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade distrito federal",
+      "patterns": [
+        "fertilidade distrito federal",
+        "fertilidade df",
+        "fecundidade distrito federal",
+        "fecundidade df",
+        "fecundacao distrito federal",
+        "fecundacao df"
+      ],
+      "responses": [
+        "Estado: Distrito Federal\nTaxa de fertilidade (filhos por mulher): 1,75"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "fertilidade santa catarina",
+      "patterns": [
+        "fertilidade santa catarina",
+        "fertilidade sc",
+        "fecundidade santa catarina",
+        "fecundidade sc",
+        "fecundacao santa catarina",
+        "fecundacao sc"
+      ],
+      "responses": [
+        "Estado: Santa Catarina\nTaxa de fertilidade (filhos por mulher): 1,7"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade maranhao",
+      "patterns": [
+        "natalidade maranhao",
+        "natalidade maranhão",
+        "natalidade ma"
+      ],
+      "responses": [
+        "Estado: Maranhao\nTaxa de natalidade (para cada mil habitantes): 20,5"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade piaui",
+      "patterns": [
+        "natalidade piaui",
+        "natalidade pi"
+      ],
+      "responses": [
+        "Estado: Piaui\nTaxa de natalidade (para cada mil habitantes): 19,9"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade alagoas",
+      "patterns": [
+        "natalidade alagoas",
+        "natalidade al"
+      ],
+      "responses": [
+        "Estado: Alagoas\nTaxa de natalidade (para cada mil habitantes): 23,1"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade amazonas",
+      "patterns": [
+        "natalidade amazonas",
+        "natalidade am"
+      ],
+      "responses": [
+        "Estado: Amazonas\nTaxa de natalidade (para cada mil habitantes): 20,1"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade para",
+      "patterns": [
+        "natalidade para",
+        "natalidade pa"
+      ],
+      "responses": [
+        "Estado: Para\nTaxa de natalidade (para cada mil habitantes): 18,8"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade acre",
+      "patterns": [
+        "natalidade acre",
+        "natalidade ac"
+      ],
+      "responses": [
+        "Estado: Acre\nTaxa de natalidade (para cada mil habitantes): 23,9"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade ceara",
+      "patterns": [
+        "natalidade ceara",
+        "natalidade ce"
+      ],
+      "responses": [
+        "Estado: Ceara\nTaxa de natalidade (para cada mil habitantes): 17,9"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade roraima",
+      "patterns": [
+        "natalidade roraima",
+        "natalidade rr"
+      ],
+      "responses": [
+        "Estado: Roraima\nTaxa de natalidade (para cada mil habitantes): 28,7"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade bahia",
+      "patterns": [
+        "natalidade bahia",
+        "natalidade ba"
+      ],
+      "responses": [
+        "Estado: Bahia\nTaxa de natalidade (para cada mil habitantes): 18,8"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade paraiba",
+      "patterns": [
+        "natalidade paraiba",
+        "natalidade pb"
+      ],
+      "responses": [
+        "Estado: Paraiba\nTaxa de natalidade (para cada mil habitantes): 17,4"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade pernambuco",
+      "patterns": [
+        "natalidade pernambuco",
+        "natalidade pe"
+      ],
+      "responses": [
+        "Estado: Pernambuco\nTaxa de natalidade (para cada mil habitantes): 17,4"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade sergipe",
+      "patterns": [
+        "natalidade sergipe",
+        "natalidade se"
+      ],
+      "responses": [
+        "Estado: Sergipe\nTaxa de natalidade (para cada mil habitantes): 20,4"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade rio grande do norte",
+      "patterns": [
+        "natalidade rio grande do norte",
+        "natalidade rn"
+      ],
+      "responses": [
+        "Estado: Rio Grande do Norte\nTaxa de natalidade (para cada mil habitantes): 17,9"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade amapa",
+      "patterns": [
+        "natalidade amapa",
+        "natalidade ap"
+      ],
+      "responses": [
+        "Estado: Amapa\nTaxa de natalidade (para cada mil habitantes): 27,9"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade tocantins",
+      "patterns": [
+        "natalidade tocantins",
+        "natalidade to"
+      ],
+      "responses": [
+        "Estado: Tocantins\nTaxa de natalidade (para cada mil habitantes): 18,4"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade rondonia",
+      "patterns": [
+        "natalidade rondonia",
+        "natalidade ro"
+      ],
+      "responses": [
+        "Estado: Rondonia\nTaxa de natalidade (para cada mil habitantes): 18,4"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade mato grosso",
+      "patterns": [
+        "natalidade mato grosso",
+        "natalidade mt"
+      ],
+      "responses": [
+        "Estado: Mato Grosso\nTaxa de natalidade (para cada mil habitantes): 17,3"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade mato do sul",
+      "patterns": [
+        "natalidade mato grosso do sul",
+        "natalidade ms"
+      ],
+      "responses": [
+        "Estado: Mato Grosso do sul\nTaxa de natalidade (para cada mil habitantes): 16,9"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade minas gerais",
+      "patterns": [
+        "natalidade minas gerais",
+        "natalidade mg"
+      ],
+      "responses": [
+        "Estado: Minas Gerais\nTaxa de natalidade (para cada mil habitantes): 15,1"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade espirito santo",
+      "patterns": [
+        "natalidade espirito santo",
+        "natalidade es"
+      ],
+      "responses": [
+        "Estado: Espirito Santo\nTaxa de natalidade (para cada mil habitantes): 16,5"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade rio de janeiro",
+      "patterns": [
+        "natalidade rio de janeiro",
+        "natalidade rj"
+      ],
+      "responses": [
+        "Estado: Rio de Janeiro\nTaxa de natalidade (para cada mil habitantes): 11,9"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade goias",
+      "patterns": [
+        "natalidade goias",
+        "natalidade go"
+      ],
+      "responses": [
+        "Estado: Goias\nTaxa de natalidade (para cada mil habitantes): 15,2"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade parana",
+      "patterns": [
+        "natalidade parana",
+        "natalidade pr"
+      ],
+      "responses": [
+        "Estado: Parana\nTaxa de natalidade (para cada mil habitantes): 12,9"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade rio grande do sul",
+      "patterns": [
+        "natalidade rio grande do sul",
+        "natalidade rs"
+      ],
+      "responses": [
+        "Estado: Rio Grande do Sul\nTaxa de natalidade (para cada mil habitantes): 12,9"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade sao paulo",
+      "patterns": [
+        "natalidade sao paulo",
+        "natalidade são paulo",
+        "natalidade sp"
+      ],
+      "responses": [
+        "Estado: Sao Paulo\nTaxa de natalidade (para cada mil habitantes): 13,3"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade distrito federal",
+      "patterns": [
+        "natalidade distrito federal",
+        "natalidade df"
+      ],
+      "responses": [
+        "Estado: Distrito Federal\nTaxa de natalidade (para cada mil habitantes): 17,3"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade santa catarina",
+      "patterns": [
+        "natalidade santa catarina",
+        "natalidade sc"
+      ],
+      "responses": [
+        "Estado: Santa Catarina\nTaxa de natalidade (para cada mil habitantes): 12,5"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade sul",
+      "patterns": [
+        "natalidade sul"
+      ],
+      "responses": [
+        "Regiao: Sul\nTaxa de natalidade (para cada mil habitantes): 12,3"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade sudeste",
+      "patterns": [
+        "natalidade sudeste"
+      ],
+      "responses": [
+        "Regiao: Sudeste\nTaxa de natalidade (para cada mil habitantes): 13,6"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade centro-oeste",
+      "patterns": [
+        "natalidade centro-oeste",
+        "natalidade centro oeste"
+
+      ],
+      "responses": [
+        "Regiao: Centro-Oeste\nTaxa de natalidade (para cada mil habitantes): 16,3"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade nordeste",
+      "patterns": [
+        "natalidade nordeste"
+      ],
+      "responses": [
+        "Regiao: Nordeste\nTaxa de natalidade (para cada mil habitantes): 18,9"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "natalidade norte",
+      "patterns": [
+        "natalidade norte"
+      ],
+      "responses": [
+        "Regiao: Norte\nTaxa de natalidade (para cada mil habitantes): 20"
+      ],
+         "context_set": ""
+    },
+    {
+      "tag": "ibge",
+      "patterns": [
+        "ibge"
+      ],
+      "responses": [
+        "O Instituto Brasileiro de Geografia e Estatistica - IBGE é o principal provedor de informações geográficas e estatísticas do Brasil."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "info",
+      "patterns": [
+        "deenvolvedor",
+        "quem te desenvolveu",
+        "quem te fez",
+        "qual seu autor",
+        "quem são seus autores",
+        "autoria",
+        "autor"
+      ],
+      "responses": [
+        "Fui desenvolvido por Joao Pedro e seus colegas com intuito estudantil."
+      ],
+      "context_set": ""
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+ "Estado Sao Paulo\nPopulacao 2021:46,649,132\nPopulacao 2010: 41,262,199 \nCrescimento Populacional: 13,05%\nPorcentagem da populacao total: 10,1%",
+        "Estado Rio de Janeiro\nPopulacao 2021:17,463,349\nPopulacao 2010: 15,989,929 \nCrescimento Populacional: 9,21%\nPorcentagem da populacao total: 8.2%"
+
+
+
+ elif('sao paulo' in message.lower() or 'sp' in message.lower() or 'são paulo' in message.lower()):
+        info = population_handler.return_population_info('sp')
+        return_message = population_handler.return_population_msg('São Paulo', info)
+
+        "Pais: Brasil\nPopulacao 2021: 213,317,639",
+
+        "Estado: Acre\nPopulacao 2021: 906,876\nPopulacao 2010: 733,559\nCrescimento Populacional: 23,63%\nPorcentagem da populacao total: 0,4%",
+        "Estado: Amapa\nPopulacao 2021: 877,613\nPopulacao 2010: 669,526\nCrescimento Populacional: 31,08%\nPorcentagem da populacao total: 0,4%",
+        "Estado: Roraima\nPopulacao 2021: 652,713\nPopulacao 2010: 450,479\nCrescimento Populacional: 44,89%\nPorcentagem da populacao total: 0,4%",
+        "Regiao: Sudeste\nPopulacao 2021: 8,9632,912\nPorcentagem da populacao total: 42,04%",
+        "Regiao: Nordeste\nPopulacao 2021: 57,667,842\nPorcentagem da populacao total: 27,09%",
+        "Regiao: Sul\nPopulacao 2021: 30,402,587\nPorcentagem da populacao total: 14,26%",
+        "Regiao: Norte\nPopulacao 2021: 18,906,962\nPorcentagem da populacao total: 8,82%",
+        "Regiao: Centro-Oeste\nPopulacao 2021: 16,707,336\nPorcentagem da populacao total: 7,79%"
+
+        "Estado: Minas Gerais\nPopulacao 2021: 21,411,923\nPopulacao 2010: 41,262,199\nCrescimento Populacional: 13,05%\nPorcentagem da populacao total: 10,1%",
+        "Estado: Rio de Janeiro\nPopulacao 2021:17,463,349\nPopulacao 2010: 15,989,929\nCrescimento Populacional: 9,21%\nPorcentagem da populacao total: 8,2%",
+        "Estado: Bahia\nPopulacao 2021: 14,985,284\nPopulacao 2010: 14,016,906\nCrescimento Populacional: 6,91%\nPorcentagem da populacao total: 7,1%",
+        "Estado: Parana\nPopulacao 2021: 11,597,484\nPopulacao 2010: 15,989,929\nCrescimento Populacional: 11,04%\nPorcentagem da populacao total: 5,4%",
+        "Estado: Rio Grande do Sul\nPopulacao 2021: 11,466,630\nPopulacao 2010: 41,262,199\nCrescimento Populacional: 7,23%\nPorcentagem da populacao total: 5,4%",
+        "Estado: Pernambuco\nPopulacao 2021: 11,597,484\nPopulacao 2010: 10,693,929\nCrescimento Populacional: 9,98%\nPorcentagem da populacao total: 4,5%",
+        "Estado: Ceara\nPopulacao 2021: 9,240,580\nPopulacao 2010: 8,452,381\nCrescimento Populacional: 9,32%\nPorcentagem da populacao total: 4,3%",
+        "Estado: Para\nPopulacao 2021: 8,777,124\nPopulacao 2010: 7,581,051\nCrescimento Populacional: 15,78%\nPorcentagem da populacao total: 4,1%",
+        "Estado: Santa Catarina\nPopulacao 2021: 7,338,473\nPopulacao 2010: 6,248,436 \nCrescimento Populacional: 17,44%\nPorcentagem da populacao total: 3,4%",
+        "Estado: Goias\nPopulacao 2021: 7,206,589\nPopulacao 2010: 6,003,788\nCrescimento Populacional: 20,03%\nPorcentagem da populacao total: 3,4%",
+        "Estado: Maranhao\nPopulacao 2021: 7,153,262\nPopulacao 2010: 6,574,789\nCrescimento Populacional: 8,8%\nPorcentagem da populacao total: 3,4%",
+        "Estado: Amazonas\nPopulacao 2021: 4,269,995\nPopulacao 2010: 3,483,985\nCrescimento Populacional: 22,56%\nPorcentagem da populacao total: 2%",
+        "Estado: Espirito Santo\nPopulacao 2021: 4,108,508\nPopulacao 2010: 3,514,952\nCrescimento Populacional: 16,89%\nPorcentagem da populacao total: 1,9%",
+        "Estado: Paraiba\nPopulacao 2021: 4,059,905\nPopulacao 2010: 3,766,528\nCrescimento Populacional: 7,79%\nPorcentagem da populacao total: 1,9%",
+        "Estado: Mato Grosso\nPopulacao 2021: 3,567,234\nPopulacao 2010: 3,035,122\nCrescimento Populacional: 17,53%\nPorcentagem da populacao total: 1,7%",
+        "Estado: Rio Grande do Norte\nPopulacao 2021: 3,560,903\nPopulacao 2010: 3,168,027 \nCrescimento Populacional: 12,4%\nPorcentagem da populacao total: 1,7%",
+        "Estado: Alagoas\nPopulacao 2021: 3,365,351\nPopulacao 2010: 3,120,494\nCrescimento Populacional: 7,85%\nPorcentagem da populacao total: 1,6%",
+        "Estado: Piaui\nPopulacao 2021: 3,289,290\nPopulacao 2010: 3,118,360\nCrescimento Populacional: 5,48%\nPorcentagem da populacao total: 1,6%",
+        "Estado: Distrito Federal\nPopulacao 2021: 3,094,325\nPopulacao 2010: 2,570,160\nCrescimento Populacional: 20,39%\nPorcentagem da populacao total: 1,4%",
+        "Estado: Mato Grosso do Sul\nPopulacao 2021: 2,839,188\nPopulacao 2010: 2,449,024\nCrescimento Populacional: 15,93%\nPorcentagem da populacao total: 1,3%",
+        "Estado: Sergipe\nPopulacao 2021: 2,338,474\nPopulacao 2010: 2,068,017\nCrescimento Populacional: 13,07%\nPorcentagem da populacao total: 1,1%",
+        "Estado: Rondonia\nPopulacao 2021: 1,815,278\nPopulacao 2010: 1,562,409\nCrescimento Populacional: 16,18%\nPorcentagem da populacao total: 0,8%",
+        "Estado: Tocantins\nPopulacao 2021: 1,383,445\nPopulacao 2010: 1,607,363\nCrescimento Populacional: 16,18%\nPorcentagem da populacao total: 0,7%",
