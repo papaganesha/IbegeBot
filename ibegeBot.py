@@ -4,7 +4,7 @@ import pyperclip
 
 
 from neuralintents import GenericAssistant
-from assistant_handler import function_for_greetings
+from cli_bot import function_for_greetings
 
 
 def initialize_and_train_model():
@@ -25,14 +25,14 @@ def initialize_and_train_model():
 sleep(5)
 global x, y
 # COMECA COM POSICAO EM CIMA DO SMILE
-position = pt.locateOnScreen("smile.png", confidence=.6)
+position = pt.locateOnScreen("./whatapp_pixels/smile.png", confidence=.6)
 x = position[0]
 y = position[1]
 
 # PEGA A MENSAGEM RECEBIDA
 def get_received_message():
   # ACHA O SMILE NA TELA
-  position = pt.locateOnScreen("smile.png", confidence=.6)
+  position = pt.locateOnScreen("./whatapp_pixels/smile.png", confidence=.6)
   # DEFINE X,Y ATRAVES DA POSICAO DO SMILE
   x = position[0]
   y = position[1]
@@ -55,7 +55,7 @@ def get_received_message():
 # ENVIADO MENSAGEM
 def send_message(message):
   # ACHA O SMILE NA TELA
-  position = pt.locateOnScreen("smile.png", confidence=.6)
+  position = pt.locateOnScreen("./whatapp_pixels/smile.png", confidence=.6)
   # DEFINE X,Y ATRAVES DA POSICAO DO SMILE
   x = position[0]
   y = position[1]
@@ -89,7 +89,7 @@ def process_response(message):
 def check_for_unread_messages():
   while True:
     try:
-      position = pt.locateOnScreen("unread.png", confidence = 0.7)
+      position = pt.locateOnScreen("./whatapp_pixels/unread.png", confidence = 0.7)
       if position is not None:
         pt.moveTo(position)
         pt.moveRel(-100,0)
