@@ -143,7 +143,7 @@ class GenericAssistant(IAssistant):
         self.model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
         ## FAZENDO O FIT DO MODELO
-        self.hist = self.model.fit(np.array(train_x), np.array(train_y), epochs=150, batch_size=5, verbose=1)
+        self.hist = self.model.fit(np.array(train_x), np.array(train_y), epochs=100, batch_size=5, verbose=1)
 
     ## SALVANDO O MODELO
     def save_model(self, model_name=None):

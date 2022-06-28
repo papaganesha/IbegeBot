@@ -47,17 +47,22 @@ def initialize_and_return_trained_model():
 
 
 assistant = initialize_and_return_trained_model()
-while True:
-    message = input("Enter a message: ")
-    if message == "STOP":
-        False
-    else:
-        if 'populaçao' in message.lower():
-            msg = message.lower().replace('populaçao', 'populacao')
-            print(msg)
-            print('resposta: \n', assistant.request(msg))
-        elif 'população' in message.lower():
-            msg = message.lower().replace('população', 'populacao')
-            print(msg)
-            print('resposta: \n', assistant.request(msg))
-        else: print('resposta: \n',assistant.request(message))
+
+def init_cli_bot(assistant):
+    while True:
+        message = input("Enter a message: ")
+        if message == "STOP":
+            False
+        else:
+            if 'populaçao' in message.lower():
+                msg = message.lower().replace('populaçao', 'populacao')
+                print(msg)
+                print('resposta: \n', assistant.request(msg))
+            elif 'população' in message.lower():
+                msg = message.lower().replace('população', 'populacao')
+                print(msg)
+                print('resposta: \n', assistant.request(msg))
+            else:
+                print('resposta: \n', assistant.request(message))
+
+init_cli_bot(assistant)

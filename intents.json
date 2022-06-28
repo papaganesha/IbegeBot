@@ -37,7 +37,6 @@
       ],
       "responses": [
         "Foi um prazer ajudar, volte sempre!!!",
-        "Ate mais, tenha um Bom dia!!!",
         "Volte sempre, estou a sua disposicao!!!",
         "Obrigado por conversar comigo, estou a sua disposicao!!!"
       ],
@@ -48,7 +47,8 @@
       "patterns": [
         "Qual seu nome?",
         "Como devo chama-lo?",
-        "Quem e voce?"
+        "Quem e voce?",
+        "Quem é você?"
       ],
       "responses": [
         "Eu me chamo IbegeBot",
@@ -60,15 +60,50 @@
     {
       "tag": "proposito",
       "patterns": [
-        "Pra que voce serve?",
-        "O que voce faz?",
+        "Pra o que voce serve?",
+        "Para que voce serve?",
+        "Para o que você serve?",
+        "Oque e que voce faz?",
+        "Oque é que você faz?",
         "Qual sua funcao?",
+        "Qual sua função?",
         "Qual seu trabalho?",
-        "Qual sua motivacao?"
+        "Qual sua motivacao?",
+        "Qual sua motivação?",
+        "Qual seu proposito?",
+        "Qual é seu proposito"
       ],
       "responses": [
         "Respondo perguntas sobre a populacao de acordo com os dados do IBGE",
         "Informo sobre metricas populacionais retiradas do IBGE"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ibge",
+      "patterns": [
+        "ibge",
+        "oque é o ibge",
+        "quem é ibge"
+      ],
+      "responses": [
+        "O Instituto Brasileiro de Geografia e Estatistica - IBGE e o principal provedor de informacoes geograficas e estatisticas do Brasil."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "info",
+      "patterns": [
+        "deenvolvedor",
+        "quem te desenvolveu",
+        "quem te fez",
+        "qual seu autor",
+        "quem são seus autores",
+        "autoria",
+        "autor"
+      ],
+      "responses": [
+        "Fui desenvolvido por Joao Pedro e seus colegas com intuito estudantil."
       ],
       "context_set": ""
     },
@@ -1676,32 +1711,6 @@
         "Regiao: Norte\nTaxa de natalidade (para cada mil habitantes): 20"
       ],
          "context_set": ""
-    },
-    {
-      "tag": "ibge",
-      "patterns": [
-        "ibge"
-      ],
-      "responses": [
-        "O Instituto Brasileiro de Geografia e Estatistica - IBGE é o principal provedor de informações geográficas e estatísticas do Brasil."
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "info",
-      "patterns": [
-        "deenvolvedor",
-        "quem te desenvolveu",
-        "quem te fez",
-        "qual seu autor",
-        "quem são seus autores",
-        "autoria",
-        "autor"
-      ],
-      "responses": [
-        "Fui desenvolvido por Joao Pedro e seus colegas com intuito estudantil."
-      ],
-      "context_set": ""
     }
   ]
 }
