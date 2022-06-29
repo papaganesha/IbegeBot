@@ -69,24 +69,29 @@ sleep(5)
 global x, y
 # COMECA COM POSICAO EM CIMA DO SMILE
 position = pt.locateOnScreen("whatsapp_pixels/smile.png", confidence=.6)
-x = position[0]
-y = position[1]
+x = position[0]#669
+y = position[1]#993
+
+#smile - Point(x=669, y=993) (32, 44, 51)
+#msgBox - Point(x=839, y=1002) (42, 57, 66)
+#receivedMsg - Point(x=764, y=930) (0, 120, 215)
+#copy - Point(x=808, y=650) (82, 82, 94)
 
 # PEGA A MENSAGEM RECEBIDA
 def get_received_message():
   # ACHA O SMILE NA TELA
   position = pt.locateOnScreen("whatsapp_pixels/smile.png", confidence=.6)
   # DEFINE X,Y ATRAVES DA POSICAO DO SMILE
-  x = position[0]
-  y = position[1]
+  x = position[0]#669
+  y = position[1]#993
   #MOVE PARA A MENSAGEM
-  pt.moveTo(x+100, y-45, duration=0.5)
+  pt.moveTo(x+95, y-63, duration=0.5)
   # DA UM CLIQUE TRIPLO NA MENSAGEM
   pt.tripleClick()
   # DA UM CLIQUE DIREITO NA MENSAGEM
   pt.rightClick()
   # MOVE O MOUSE PARA A OPÇAO DE COPIAR
-  pt.moveRel(100, -280)
+  pt.moveRel(44, -280)
   # CLICA, COPIANDO O TEXTO DA MENSAGEM
   pt.click()
   # SETA RECEIVED_MESSAGE COM TEXTO COPIADO
@@ -95,15 +100,21 @@ def get_received_message():
   # RETORNA O TEXTO DA MENSAGEM
   return received_message
 
+#smile - Point(x=669, y=993) (32, 44, 51)
+#msgBox - Point(x=839, y=1002) (42, 57, 66)
+#receivedMsg - Point(x=764, y=930) (0, 120, 215)
+#copy - Point(x=808, y=650) (82, 82, 94)
+
+
 # ENVIADO MENSAGEM
 def send_message(message):
   # ACHA O SMILE NA TELA
   position = pt.locateOnScreen("whatsapp_pixels/smile.png", confidence=.6)
   # DEFINE X,Y ATRAVES DA POSICAO DO SMILE
-  x = position[0]
-  y = position[1]
+  x = position[0]#669
+  y = position[1]#993
   # MOVE O MOUSE PARA O INPUT QUE ENVIA MENSAGENS
-  pt.moveTo(x+160, y+20, duration=0.5)
+  pt.moveTo(x+170, y+6, duration=0.5)
   # CLICA NO INPUT
   pt.click()
   # ESCREVE A MENSAGEM
